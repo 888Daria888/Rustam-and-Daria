@@ -1,7 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .wrapper{
     position: relative;
     width: 1440px;
     height: 6575px;
     
     background: #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+    width: 112px;
+    height: 66px;
+    left: 121px;
+    top: 21px;
+}
+.globe{
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 121px;
+    top: 184px;
+
+}
+.onlineText{
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 151px;
+    top: 187px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
+    
+    
+    color: #000000;
+}
+
+.clock{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 306px;
+    top: 183px;
+}
+.clockText{
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 338px;
+    top: 187px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
+
+
+    color: #000000;
+}
+.celendar{
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    left: 467px;
+    top: 183px;
+}
+.celendarText{
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 500px;
+    top: 187px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
+
+
+    color: #000000;
+}
+
+.majorText{
+    position: absolute;
+    width: 628px;
+    height: 190px;
+    left: 122px;
+    top: 248px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    /* or 81px */
+    
+
+
+    color: #000000;
+}
+
+.secondText{
+    position: absolute;
+    width: 414px;
+    height: 62px;
+    left: 122px;
+    top: 427px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    /* or 30px */
+
+
+    color: #000000;
+}
+
+.noroot{
+    position: absolute;
+    width: 304px;
+    height: 356px;
+    left: 890px;
+    top: 223px;
+}
+.ellipse{
+    position: absolute;
+    width: 274px;
+    height: 41px;
+    left: 921px;
+    top: 558px;
+
+    background: #FFFFFF;
+}
+
+
+.rectangle{
+    position: relative;
+    width: 483.63px;
+    height: 200px;
+    left: 409.39px;
+    top: 666.62px;
+    
+    background: #1E4681;
+    border-radius: 5px;
+}
+.groupText{
+    
+    position: absolute;
+    width: 431px;
+    height: 129px;
+    left: 435px;
+    top: 686px;
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    
+    
+    color: #FFFFFF;
+}
+.name{
+    position: absolute;
+    width: 280.5px;
+    height: 45.64px;
+    left: 594px;
+    top: 821px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+
+.majortext{
+    position: absolute;
+    width: 365px;
+    height: 93px;
+    left: 121px;
+    top: 1040px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+
+
+    color: #000000;
+
+}
+
+.article{
+    position: absolute;
+    width: 662px;
+    height: 374px;
+    left: 121px;
+    top: 1151px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    
+    
+    color: #000000;
+    
+}
+
+
+
+.image{
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 121px;
+    top: 1619px;
+}
+
+.mainImage{
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 973px;
+    top: 1175px;
+    
+    background: url(_1.png);
+}
+
+.floor{
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 947px;
+    top: 1460px;
+    
+    background: #FFFFFF;   
+}
+
+.floorimage{
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 154px;
+    top: 1806px;
+
+    background: #FFFFFF;
+}
+
+.First{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 485px;
+    top: 1689px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+
+    color: #000000;
+
+
+}
+.first{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 485px;
+    top: 1729px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+
+    color: #000000;
+
+
+}
+
+.Second{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 730px;
+    top: 1689px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+
+    color: #000000;
+
+}
+.second{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 730px;
+    top: 1729px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    
+    
+    color: #000000;
+}
+
+.Tree{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 973px;
+    top: 1689px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    
+    
+    color: #000000;
+}
+.tree{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 973px;
+    top: 1729px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    
+    
+    color: #000000;
+}
+
+.Format{
+    position: absolute;
+    width: 667px;
+    height: 93px;
+    left: 121px;
+    top: 2000px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+
+
+    color: #000000;
+}
+
+.vebinar{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 122px;
+    top: 2182px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+
+    color: #1E4681;
+}
+.vebinarText{
+    position: absolute;
+    width: 223px;
+    height: 39px;
+    left: 122px;
+    top: 2222px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+
+    color: #000000;
+}
+.access{
+    position: absolute;
+    width: 214px;
+    height: 39px;
+    left: 467px;
+    top: 2182px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+
+    color: #1E4681;
+
+}
+.accessText{
+    position: absolute;
+    width: 271px;
+    height: 109px;
+    left: 467px;
+    top: 2222px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+
+    color: #000000;
+
+}
+
+.talk{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 851px;
+    top: 2182px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+
+
+    color: #1E4681;
+}
+.talkText{
+    position: absolute;
+    width: 245px;
+    height: 39px;
+    left: 851px;
+    top: 2222px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+
+    color: #000000;
+}
+
+.news{
+    position: absolute;
+    width: 667px;
+    height: 93px;
+    left: 121px;
+    top: 2510px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+
+
+    color: #000000;
+
+}
+
+.table{
+    position: absolute;
+    width: 662px;
+    height: 374px;
+    left: 138px;
+    top: 2624px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    
+    
+    color: #000000;
 }
